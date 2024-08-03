@@ -1,0 +1,61 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  outline: none;
+  font-family: Times New Roman, Sans-Serif, Arial;
+}
+body{
+  display: flex;
+  height: 100vh;
+  width: 100vw;
+  justify-content: center;
+  align-items: center;
+  background-image: url('/bgccaa.jpg');
+  background-size: cover;
+}
+.caixa-maior{
+  background-color: #000;
+  padding: 1.0rem;
+  border-radius: 15px;
+  opacity: 0.8;
+  width: 78%;
+  max-width: 450px;
+  
+}
+input{
+  color:#ffffffff;
+  padding: 8px;
+  border-radius: 15px;
+  border:none;
+  background-color: #7c7c7c2b;
+  width: calc(100% - 65px);
+  color
+}
+button{
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  opacity: 0.7;
+  padding: 8px;
+  cursor: pointer;
+  float: right;
+  background-color: #7c7c7c2b;
+}
+.btn{
+  height:40px;
+  width: 40px;
+  border-radius: 25px;
+  
+}
+h1{
+  color: #fff;
+}
+p{
+  color: #fff;
+}
+.back{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
